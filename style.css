@@ -4,49 +4,49 @@
     font-family: "Nova Square", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .rajdhani-light {
+.rajdhani-light {
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .rajdhani-regular {
+}
+
+.rajdhani-regular {
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .rajdhani-medium {
+}
+
+.rajdhani-medium {
     font-family: "Rajdhani", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
-  
-  .rajdhani-semibold {
+}
+
+.rajdhani-semibold {
     font-family: "Rajdhani", sans-serif;
     font-weight: 600;
     font-style: normal;
-  }
-  
-  .rajdhani-bold {
+}
+
+.rajdhani-bold {
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
+}
 
-  body{
-font-family: "rajdhani";
-margin: 0px;
-padding: 0px;
-background-color: #ececec;
-  }
+
+body{
+    font-family: "rajdhani";
+    margin: 0px;
+    padding: 0px;
+    background-color: #ececec;
+}
 
 /* nav */
 
- 
+
 .navbarCustom{
     background-color: white;
 }
@@ -77,9 +77,72 @@ background-color: #ececec;
 
 /* fine header */
 
-/* paragrafo cards */
+/* paragrafo cards 1 */
 .paragrafo{
     color: grey;
     font-family: "Nova Square";
     font-size: 20px;
 }
+
+.paragrafosmall{
+    color: grey;
+    font-family: "Nova Square";
+}
+
+.contenitorecards{
+    margin-top: 20vh;
+    height: 40vh;
+    
+}
+
+
+.customcards{
+    height: 100%;
+    width: 15%;
+    position: relative;
+}
+
+.csselement::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 3px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 37%;
+    right: 47%;
+}
+
+.csselement{
+    border-bottom: 4px solid darkred ;
+    padding-bottom: 10px;
+}
+
+.bi{
+    font-size: 50px;
+    color: darkred;
+}
+
+/* fine cards 1 */
+
+/* bottone */
+
+.sfondobottone{
+    background-image: url(media/trees2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.bottone{
+    background-color: darkred;
+    width: 20vw;
+}
+
+.h3bottone{
+color: white
+}
+
+/* fine bottone */
