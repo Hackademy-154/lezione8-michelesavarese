@@ -1,0 +1,85 @@
+
+/* body */
+.nova-square-regular {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  body{
+font-family: "rajdhani";
+margin: 0px;
+padding: 0px;
+background-color: #ececec;
+  }
+
+/* nav */
+
+ 
+.navbarCustom{
+    background-color: white;
+}
+
+.logoNav{
+    height: 60px;
+}
+
+.navlinks li{
+    padding: 0vh 3vw 0vh 3vw;
+}
+
+/* fine nav */
+
+/* header */
+.imgheader{
+    background: url(media/mountains2.png), linear-gradient(white, transparent), url(media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.titolo{
+    color: darkred;
+    font-family: "Nova Square";
+}
+
+/* fine header */
+
+/* paragrafo cards */
+.paragrafo{
+    color: grey;
+    font-family: "Nova Square";
+    font-size: 20px;
+}
