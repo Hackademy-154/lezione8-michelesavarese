@@ -78,6 +78,12 @@ body{
 /* fine header */
 
 /* paragrafo cards 1 */
+.virgolette{
+    font-size: 40px;
+    color: darkred;
+    font-weight: bolder;
+}
+
 .paragrafo{
     color: grey;
     font-family: "Nova Square";
@@ -121,7 +127,7 @@ body{
 
 
 
-.bi{
+.icone1{
     font-size: 50px;
     color: darkred;
 }
@@ -188,4 +194,46 @@ color: white
 
 .teamcardscontainer{
 margin-top: 20vh;
+margin-bottom: 20vh;
+}
+
+.immaginipersonale{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 90px;
+    padding: 5px;
+    border: 3px solid darkred;
+}
+
+.icone2{
+    color: darkred;
+    font-size: 25px;
+}
+
+/* fine team cards */
+
+/* prefooter */
+.prefooter{
+    height: 60vh;
+    background-image: url(media/other.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* fine prefooter */
+
+/* footer */
+.containerfooter{
+    height: 50vh;
+    padding-top: 10vh;
+    background-color: darkred;
+}
+
+.coloretestofooter{
+    color: white;
+}
+
+.finalorem{
+    padding-left: 10vw;
 }

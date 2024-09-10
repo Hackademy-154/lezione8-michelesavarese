@@ -24,7 +24,7 @@
 </head>
 <body>
     <!-- inizio nav -->
-    <nav class="navbar navbar-expand-lg navbarCustom">
+    <nav class="navbar navbar-expand-md navbarCustom">
         <div class="container-fluid d-flex flex-column">
             <a class="navbar-brand" href="#">
                 <div> <img class="logoNav" src="media/logo.png" alt="montagna rossa"> </div>
@@ -33,7 +33,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navlinks" >
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 navlinks" >
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Primo Link</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Altro Link</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Terzo Link</a></li>
@@ -60,8 +60,11 @@
     
     <div class="container-fluid">
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-8 text-center">
-                <p><h3 class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate, <br> amet suscipit consequatur vero esse animi vitae quae maxime accusamus perferendis minus, <br> a aspernatur accusantium tempore alias laboriosam, maiores ratione.</h3></p>
+            <div class="col-12 col-md-8 text-center">
+                <p><span class="virgolette">"</span>
+                    <span class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate, <br> amet suscipit consequatur vero esse animi vitae quae maxime accusamus perferendis minus, <br> a aspernatur accusantium tempore alias laboriosam, maiores ratione.<span class="virgolette">"</span>
+                    </span>
+                </p>
             </div>
         </div>
     </div>
@@ -69,23 +72,23 @@
     
     <div class="container-fluid contenitorecards">
         <div class="row h-100 d-flex justify-content-center align-content-center">
-            <div class="col-3 customcards text-center">
-                <i class="bi bi-snow"></i>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 customcards text-center">
+                <i class="bi bi-snow icone1"></i>
                 <p class="csselement">Lorem, ipsum dolor.</p>
             </div>
             
-            <div class="col-3 customcards text-center">
-                <i class="bi bi-triangle-fill"></i>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 customcards text-center">
+                <i class="bi bi-triangle-fill icone1"></i>
                 <p class="csselement">Lorem, ipsum dolor.</p>
             </div>
             
-            <div class="col-3 customcards text-center">
-                <i class="bi bi-map-fill"></i>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 customcards text-center">
+                <i class="bi bi-map-fill icone1"></i>
                 <p class="csselement">Lorem, ipsum dolor.</p>
             </div>
             
-            <div class="col-3 customcards text-center">
-                <i class="bi bi-symmetry-vertical"></i>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 customcards text-center">
+                <i class="bi bi-symmetry-vertical icone1"></i>
                 <p class="csselement">Lorem, ipsum dolor.</p>
             </div>
             
@@ -99,7 +102,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-5">
+            <div class="col-12 col-md-5">
                 <h1 class="titolo">titolo</h1>
                 <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reiciendis obcaecati fugiat sit est cum qui quisquam! Minus a enim ratione quasi atque! Vel corrupti distinctio accusantium officia voluptas quibusdam? 
                     <br>
@@ -111,7 +114,7 @@
             <div class="col-2">
                 
             </div>
-            <div class="col-5 text-end">
+            <div class="col-12 col-md-5">
                 <h1 class="titolo">titolo</h1>
                 <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reiciendis obcaecati fugiat sit est cum qui quisquam! Minus a enim ratione quasi atque! Vel corrupti distinctio accusantium officia voluptas quibusdam?
                     <br>
@@ -129,7 +132,7 @@
     
     <div class="container-fluid">
         <div class="row sfondobottone d-flex justify-content-center align-content-center">
-            <div class="col-2">
+            <div class="col-12 col-md-3">
                 <button class="bottone pt-2"><h3 class="h3bottone">lorem ipsum</h3></button>
             </div>
         </div>
@@ -138,7 +141,7 @@
     <!-- fine bottone -->
     
     <!-- timeline -->
-
+    
     <div class="container-fluid timelinecontainer">
         <h1 class="titolo timeline h-100">Our Timeline</h1>
         <div class="row d-flex flex-column  h-100">
@@ -176,26 +179,120 @@
     
     <!-- cards 2 -->
     <div class="container-fluid teamcardscontainer">
-        <h1 class="titolo timeline">Our Team</h1>
-
-        <div class="row">
-            <div class="col-3">
-                <img class="rounded-circle h-25" src="media/landscape-975091_1920.jpg" alt="">
-
+        <h1 class="titolo">Our Team</h1>
+        <div class="row d-flex justify-content-center align-content-center text-center">
+            <div class="col-3 cardspersonale">
+                <img class="immaginipersonale" src="media/mountain-547363_1920.jpg" alt="">
+                <h1 class="titolo">Lorem, ipsum.</h1>
+                <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere perspiciatis</p>
+                <ul class="list-unstyled d-flex justify-content-center align-content-center">
+                    <li><i class="bi bi-instagram p-2 icone2"></i></li>
+                    <li><i class="bi bi-linkedin p-2 icone2"></i></li>
+                    <li><i class="bi bi-facebook p-2 icone2"></i></li>
+                </ul>
             </div>
-            <div class="col-3">
-                
+            <div class="col-3 cardspersonale">
+                <img class="immaginipersonale" src="media/mountain-547363_1920.jpg" alt="">
+                <h1 class="titolo">Lorem, ipsum.</h1>
+                <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere perspiciatis</p>
+                <ul class="list-unstyled d-flex justify-content-center align-content-center">
+                    <li><i class="bi bi-instagram p-2 icone2"></i></li>
+                    <li><i class="bi bi-linkedin p-2 icone2"></i></li>
+                    <li><i class="bi bi-facebook p-2 icone2"></i></li>
+                </ul>
             </div>
-            <div class="col-3">
-                
+            <div class="col-3 cardspersonale">
+                <img class="immaginipersonale" src="media/mountain-547363_1920.jpg" alt="">
+                <h1 class="titolo">Lorem, ipsum.</h1>
+                <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere perspiciatis</p>
+                <ul class="list-unstyled d-flex justify-content-center align-content-center">
+                    <li><i class="bi bi-instagram p-2 icone2"></i></li>
+                    <li><i class="bi bi-linkedin p-2 icone2"></i></li>
+                    <li><i class="bi bi-facebook p-2 icone2"></i></li>
+                </ul>
             </div>
-            <div class="col-3">
-                
+            <div class="col-3 cardspersonale">
+                <img class="immaginipersonale" src="media/mountain-547363_1920.jpg" alt="">
+                <h1 class="titolo">Lorem, ipsum.</h1>
+                <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere perspiciatis</p>
+                <ul class="list-unstyled d-flex justify-content-center align-content-center">
+                    <li><i class="bi bi-instagram p-2 icone2"></i></li>
+                    <li><i class="bi bi-linkedin p-2 icone2"></i></li>
+                    <li><i class="bi bi-facebook p-2 icone2"></i></li>
+                </ul>
             </div>
         </div>
     </div>
     
     <!-- fine cards -->
+    <!-- benefit -->
+    
+    <div class="container-fluid">
+        <h1 class="titolo m-5">Our Benefit</h1>
+        <div class="row m-5">
+            <div class="row d-flex align-content-around my-5">
+                <div class="col-6 text-start">
+                    <h1 class="titolo">Lorem, ipsum.</h1>
+                    <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vel quibusdam enim ut corporis animi.</p>
+                </div>
+                <div class="col-6 text-center">
+                    
+                    <img class="immaginipersonale" src="media/mountain-547363_1920.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="row d-flex align-content-around">
+                
+                <div class="col-6 text-center">
+                    
+                    <img class="immaginipersonale" src="media/mountain-547363_1920.jpg" alt="">
+                </div>
+                
+                <div class="col-6">
+                    <h1 class="titolo">Lorem, ipsum.</h1>
+                    <p class="paragrafosmall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vel quibusdam enim ut corporis animi.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- fine benefit -->
+    
+    <!-- prefooter -->
+    
+    <div class="prefooter" >
+    </div>
+    <!-- prefooter -->
+    
+    <!-- footer -->
+    <div class="container-fluid containerfooter">
+        <div class="row coloretestofooter d-flex justify-content-center align-self-center">
+            <h1 class="finalorem">Lorem</h1>
+            <div class="col-7">
+                <h3>testo generico</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic ducimus laboriosam mollitia, quasi dolorum ipsa itaque reprehenderit! Voluptates deleniti porro qui, tenetur quibusdam velit ratione blanditiis repellat animi nulla.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta illum quae eum tempore nulla officia eius autem voluptate, cumque, aperiam ducimus voluptatibus maiores rerum repellat nemo totam in nisi numquam.
+                    
+                </p>
+            </div>
+            
+            <div class="col-3">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li>lorem link</li>
+                    <li>lorem link</li>
+                    <li>lorem link</li>
+                    <li>lorem link</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- fine footer -->
+    
     
     <!-- script bootsrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
